@@ -3,11 +3,13 @@ const express = require('express'),
   port = process.env.PORT || 3000,
   mongoose = require('mongoose'),
   Task = require('./api/models/collectionModel'), //created model loading here
-  bodyParser = require('body-parser');
+  bodyParser = require('body-parser'),
+  args = process.argv.slice(2);
 
 // mongoose instance connection url connection
 mongoose.Promise = Promise;
-mongoose.connect('mongodb://localhost/collectiondb', {
+let path = args[0] === 'local' ? 'mongodb://localhost/collectiondb' : 'mongodb://mongo/collectiondb';
+mongoose.connect(path, {
   useMongoClient: true,
   promiseLibrary: global.Promise
 });

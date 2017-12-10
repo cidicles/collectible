@@ -3,7 +3,7 @@ const _ = require( 'lodash' );
 const fs = require( 'fs' );
 
 let phrase = [
-  'collections'
+  'collections api'
 ];
 
 let font = [

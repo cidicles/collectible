@@ -9,7 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "docs": "apidoc -i api/ -o docs/ -t template/"
+    "local": "nodemon server.js local",
+    "docs": "apidoc -i api/ -o docs/ -t doc_template/"
   },
   "author": "",
   "license": "ISC",
