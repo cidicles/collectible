@@ -4,13 +4,13 @@ Baseline for a localized collection API.
 
 Contains:
 
-* [Mongo](https://www.mongodb.com/)
 * [Mongoose](http://mongoosejs.com/)
 * [Express](https://expressjs.com/)
 
 Prereqs:
 
 * [Node JS](https://nodejs.org/en/)
+* [Mongo](https://www.mongodb.com/)
 * [Yarn](https://yarnpkg.com/en/) *optional*
 * [Docker](https://www.docker.com/) *optional*
 
