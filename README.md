@@ -1,6 +1,6 @@
 # Collection API
 
-Baseline for a localized collection API.
+Baseline for a localized collection API. Docs can be viewed [here](https://cidicles.github.io/collectible/).
 
 Contains:
 
